@@ -127,8 +127,7 @@ input{
 @media( max-width: 600px){
   .button-group{
     justify-content: center;
-
-    
+    gap: 10px;
   }
   .cal-btn{
     /* align-items: center; */
@@ -136,6 +135,7 @@ input{
     width: 100px;
   }
 }
+
 
 
 
