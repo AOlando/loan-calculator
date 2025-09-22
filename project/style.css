@@ -1,0 +1,127 @@
+.app-container {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: -8px;
+  /* padding: 0px; */
+}
+.calculator-card {
+  background: #f9f9fd;
+  padding: 2rem;
+  border-radius: 5%;
+  box-shadow: 0px 1px 1px 1px;
+  width: 50%;
+  max-width: 400px;
+  /* text-align: center; */
+}
+
+/* Title */
+.title {
+  background-color: #f1f5fd;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+input{
+  box-shadow: 1.5px 1px 1px 1px black;
+}
+
+/* Inputs */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-group input {
+  padding: 0.7rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.error {
+  background-color: #a12c05;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.button-group {
+  display: flex;
+  padding: 10px;
+  gap: 4rem;
+  margin: 1rem 0;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.cal-btn{
+  background: #2563eb;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 45%;
+  
+
+}
+.cal-btn:hover{
+  font-size: 1.1rem;
+  background-color: #a2bef7;
+  color: black;
+  transition: 0.5s;
+}
+.res-btn{
+  background: #2563eb;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px   ;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 45%;
+}
+/* .res-btn:hover{
+  font-size: 1.1rem;
+} */
+.result-box {
+  /* border: 1px solid black; */
+  width: 39%;
+  height: 76px;
+  font-size: 10%;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.05);
+}
+.main{
+  display: flex;
+  height: 13vh;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.result-monthly {
+  color: black;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.result-total {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
