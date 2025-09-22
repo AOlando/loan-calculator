@@ -124,4 +124,18 @@ input{
   font-weight: bold;
   text-align: center;
 }
+@media( max-width: 600px){
+  .button-group{
+    justify-content: center;
+
+    
+  }
+  .cal-btn{
+    /* align-items: center; */
+    /* text-align: center; */
+    width: 100px;
+  }
+}
+
+
 
