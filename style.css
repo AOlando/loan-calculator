@@ -1,6 +1,6 @@
 .app-container {
   background: linear-gradient(135deg, #667eea, #764ba2);
-  border: 1px solid red;
+/*   border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,6 +135,7 @@ input{
     width: 100px;
   }
 }
+
 
 
 
